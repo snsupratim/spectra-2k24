@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SPECTRA-2K24</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&display=swap">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
@@ -19,10 +20,11 @@
                 <h4>SPECTRA</h4>
             </a>
             <ul class="nav_menu">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT US</a></li>
-                <li><a href="timeline.html">SCHEDULE</a></li>
-                <li><a href="contact.html">CONTACT US</a></li>
+                <li class="li-d"><a href="index.html">HOME</a></li>
+                <li class="li-d"><a href="about.html">ABOUT US</a></li>
+                <li class="li-d"><a href="events.html">SCHEDULE</a></li>
+                <li class="li-d"><a href="contact.html">CONTACT US</a></li>
+
             </ul>
             <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
             <button id="close-menu-btn"><i class="fa-solid fa-xmark"></i></button>
@@ -83,43 +85,33 @@
         <div class="container footer_container">
             <div class="footer_1">
                 <a href="index.html" class="footer_logo">
-                    <h4>SPECTRA</h4>
+                    <h4>Address</h4>
                 </a>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, laborum.</p>
+                <p>MCKV Institute of Engineering 243 G. T. Road (North), Liluah, Howrah – 711204.</p>
             </div>
 
-            <div class="footer_2">
-                <h4>permalinks</h4>
-                <ul class="permalinks">
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="courses.html">COURSES</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
-            </div>
 
-            <div class="footer_3">
-                <h4>privacy</h4>
-                <ul class="privacy">
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="3">ABOUT</a></li>
-                    <li><a href="#">COURSES</a></li>
-                </ul>
-            </div>
 
-            <div class="footer_4">
+            <div class="footer_1">
                 <h4>CONTACT US</h4>
 
                 <div>
                     <p>+01 234 567 8910</p>
                     <p>spectra@gmail.com</p>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>&nbsp
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
                 </div>
+            </div>
+
+            <div class="footer_1">
+                <h4>Quick links</h4>
+                <div>
+                    <a>about</a><br>
+                    <a>Schedule</a><br>
+                    <a>contactus</a>
 
 
-                <ul class="footer_socials">
-                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                </ul>
+                </div>
             </div>
         </div>
         <div class="footer_copyright">
@@ -128,7 +120,7 @@
     </footer>
 </body>
 <script src="https://kit.fontawesome.com/f0e1e3b0bc.js" crossorigin="anonymous"></script>
-<script src="script.js"></script>
+<script src="./js/script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
     var swiper = new Swiper(".mySwiper", {
